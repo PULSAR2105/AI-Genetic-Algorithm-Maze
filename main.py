@@ -74,12 +74,11 @@ Canevas = Canvas(window, width = width, height = height, bg ='white')
 # The bind() method allows you to link an event with a function:
 # A left click on the graphic area will cause the user function to be called Click()
 Canevas.bind('<Button-3>', RightClick)
-Canevas.pack(padx =5, pady =5)
 
 Canevas.bind('<Button-1>', LeftClick)
-Canevas.pack(padx =5, pady =5)
 
 Canevas.bind('<B1-Motion>',Drag)
+
 Canevas.pack(padx =5, pady =5)
 
 # Craation of a widget Button (erase button)
